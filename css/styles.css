@@ -1,0 +1,55 @@
+<style>
+      /* Define your root variables here */
+
+/* Common styles for all screen sizes */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Common styles for the body */
+}
+
+header {
+  /* Common styles for the header */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  header {
+    flex-direction: column; /* Stack header elements vertically */
+    align-items: center; /* Center-align header content */
+  }
+
+  .search-bar {
+    width: 100%; /* Make the search bar full width */
+  }
+
+  .search-button {
+    margin-top: 1rem; /* Add space between search bar and button */
+  }
+
+  .logo img {
+    width: 100px; /* Adjust the logo size for mobile */
+    height: auto;
+  }
+
+  .logo h1 {
+    font-size: 1rem; /* Adjust the font size for mobile */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack nav links vertically */
+    gap: 0.5rem; /* Add space between nav links */
+  }
+
+  /* Add any other mobile-specific styles here */
+}
+
+/* Tablet styles (you can add styles for larger screens if needed) */
+@media (min-width: 768px) {
+  /* Tablet-specific styles here */
+}
+
+    </style>
